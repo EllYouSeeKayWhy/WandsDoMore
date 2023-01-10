@@ -1,8 +1,8 @@
-﻿// WandsDoMore
+// WandsDoMore
 // a Valheim mod to add functionality to vanilla magic
 // 
-// File:    WandsDoMore.cs
-// Project: WandsDoMore
+// File:    JotunnModStub.cs
+// Project: JotunnModStub
 
 using BepInEx;
 using BepInEx.Configuration;
@@ -11,12 +11,12 @@ using Jotunn.Managers;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace WandsDoMore
+namespace JotunnModStub
 {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(Jotunn.Main.ModGuid)]
     //[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
-    internal class WandsDoMore : BaseUnityPlugin
+    internal class JotunnModStub : BaseUnityPlugin
     {
         public const string PluginGUID = "com.ellyouseekaywhy.WandsDoMore";
         public const string PluginName = "WandsDoMore";
@@ -84,4 +84,3 @@ namespace WandsDoMore
         }
     }
 }
-
