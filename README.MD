@@ -5,7 +5,7 @@ A small mod to enhance functionality of wands/spells in Valheim
 
 
 ## Features
-
+Adds Convocate to Dead Raiser (defauly G key)
 
 ## Changelog
 
